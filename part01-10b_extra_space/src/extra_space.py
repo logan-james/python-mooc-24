@@ -10,6 +10,10 @@ level3 = "semiprofessional"
 lower = 2000
 upper = 3000
 
+# delete this
+print(f"this is {cool} cool isnt a variable")
+# delete above
+
 print(f"my name is {name}, I am {age} years old")
 print("")
 print(f"my skills are")
