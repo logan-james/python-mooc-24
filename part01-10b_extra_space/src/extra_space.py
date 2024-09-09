@@ -18,3 +18,6 @@ print(f" - {skill2} ({level2})")
 print(f" - {skill3} ({level3})")
 print("")
 print(f"I am looking for a job with a salary of {lower}-{upper} euros per month")
+
+# delete
+print(f"practicing print f skills for variables")
