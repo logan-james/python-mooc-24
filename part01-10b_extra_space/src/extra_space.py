@@ -19,3 +19,7 @@ print(f" - {skill3} ({level3})")
 print("")
 print(f"I am looking for a job with a salary of {lower}-{upper} euros per month")
 
+# value of using fstrings:
+# print(f"Hi {name}, you are {age} years old. You live in {city}.")
+# is the same as using comas, but using commas is harder syntax.
+# print("Hi", name, ", you are", age, "years old. You live in", city, ".")
