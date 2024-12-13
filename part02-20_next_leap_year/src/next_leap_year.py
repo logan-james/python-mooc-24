@@ -1,13 +1,14 @@
 # Write your solution here
 
-def is_leap_year(year):
-    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 
-def get_next_leap_year(year):
-    while True:
-        year += 1
-        if is_leap_year(year):
-            return year
+start_year = int(input("Year: "))
+year = start_year + 1
+while True:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            break
+    elif year % 4 == 0:
+        break
+    year += 1
 
-year = int(input("Year: "))
-print(f"The next leap year after {year} is {get_next_leap_year(year)}")
+print(f"The next leap year after {start_year} is {year}")
