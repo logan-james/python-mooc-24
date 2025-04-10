@@ -31,7 +31,7 @@ while True:
 
 # After the loop ends, print the results
 # Part 1: Print the count of numbers typed (excluding 0)
-print(f"Number typed in {count}")
+print(f"Numbers typed in {count}")
 
 # Part 2: Print the sum of the numbers (excluding 0)
 print(f"The sum of the numbers is {total_sum}")
